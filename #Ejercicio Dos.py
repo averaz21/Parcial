@@ -7,7 +7,7 @@ def calcular_descuento(precio, descuento=10):
 def main():
     total_sin_descuento = 0
     total_con_descuento = 0
-    for i in range(3):  # Pedir al menos 3 precios
+    for i in range(3):  
         precio = float(input(f"Ingrese el precio del producto {i+1}: "))
         total_sin_descuento += precio
         total_con_descuento += calcular_descuento(precio)

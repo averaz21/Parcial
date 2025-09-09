@@ -1,8 +1,6 @@
 #Ejercicio Dos
 def calcular_descuento(precio, descuento=10):
-    """
-    Calcula el precio final después de aplicar el descuento.
-    """
+   
     precio_final = precio - (precio * descuento / 100)
     return precio_final
 

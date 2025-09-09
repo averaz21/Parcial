@@ -24,11 +24,12 @@ def main():
             otra = input("¿Desea ingresar otro número? (s/n): ")
             if otra.lower() != 's':
                 print("Programa finalizado.")
-            break
+                break
                 
                 
         except:
             print("Error: ingrese número válido")
 
 if __name__ == "__main__":
+
     main()

@@ -53,12 +53,10 @@ def main():
         estudiantes.append({"nombre": nombre, "nota": nota})
         print(f"Estudiante {nombre} agregado con nota {nota}\n")
     
-    # Calcular resultados
     promedio = promedio_notas(estudiantes)
     mejor_nombre, mejor_nota = mejor_estudiante(estudiantes)
     peor_nombre, peor_nota = peor_estudiante(estudiantes)
     
-    # Mostrar reporte
     print("\n" + "="*50)
     print("REPORTE FINAL")
     print("="*50)
@@ -68,6 +66,6 @@ def main():
     print(f"Peor estudiante: {peor_nombre} - Nota: {peor_nota}")
     print("="*50)
 
-# Ejecutar el programa
 if __name__ == "__main__":
+
     main()
